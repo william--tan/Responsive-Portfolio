@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Special+Elite|Nunito|Work+Sans|Montserrat');
+
+@keyframes headeranimate{
+	0%{ background-color: #9BC995; }
+	20%{ background-color: #98B9AB; }
+	40%{ background-color: #5171A5; }
+	60%{ background-color: #3F3047; }
+	80%{ background-color: #FF5154; }
+	100%{ background-color: #91CB3E; }
+}
+
+@keyframes colorchange{
+	0%{ color: #91A6FF; }
+	20%{ color: #FF88DC; }
+	40%{ color: #AA0B5F; }
+	60%{ color: #79B23E; }
+	80%{ color: #FF5154; }
+	100%{ color: #4ECDC4; }
+}
+
+@keyframes borderchange{
+	0%{ border: 4px solid #91A6FF; }
+	20%{ border: 4px solid #FF88DC; }
+	40%{ border: 4px solid #AA0B5F; }
+	60%{ border: 4px solid #79B23E; }
+	80%{ border: 4px solid #FF5154; }
+	100%{ border: 4px solid #4ECDC4; }
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*LOGO*/
+
+.logo{
+	height:100px;
+	width:30%;
+	float: left;
+	background-color: black;
+}
+
+.logo h1{
+	text-align: center;
+	padding-top: 33px;
+	font-family: "Montserrat";
+	font-size: 1.9em;
+	color: white;
+	animation-name: colorchange;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+#header{
+	height:100px;
+	width: 100%;
+	background-color: yellow;
+	overflow-x: hidden;
+	animation-name: headeranimate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+/*NAV*/
+
+
+.nav a{
+	font-family: "Montserrat";
+	color: white;
+	text-align: center;
+	float: right;
+	text-decoration: none;
+	width: 85px;
+}
+
+.nav a:hover{
+	font-weight: bold;
+	font-size: 0.9em;
+	transition: 0.2s all ease-in;
+	width: 85px;
+	text-align: center;
+}
+
+/*MAIN CONTENT AREA*/
+#content{
+	padding: 0px 0px 40px 0px;
+	background-image: url("../images/bganimate2.gif");
+	background-repeat: repeat;
+	background-size: 200px 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.main h1{
+	font-family: "Montserrat";
+	color: teal;
+	font-size: 1.8em;
+	padding: 20px;
+	margin: 0 20px 0 20px;
+	border-bottom: 2px solid #dddddd;
+	animation-name: colorchange;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.main p{
+	font-family: "Crimson Text";
+	color: #777777;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 20px 0 20px;
+}
+
+/*CONTACT PAGE ELEMENTS*/
+
+.cwrapper{
+		width: 90%;
+		margin: 0 auto 0 auto;
+
+}
+
+.cwrapper p{
+	margin-left: -20px;
+	float: left;
+	position: relative;
+}
+
+input.name{
+		width: 100%;
+		height: 20px;
+		top: 10px;
+		position: relative;
+	}
+
+input.email{
+		width: 100%;
+		height: 20px;
+		top: 10px;
+		position: relative;
+	}
+
+textarea{
+	top: 10px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	position: relative;
+}
+
+button{
+	background-color: teal;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	padding: 10px 30px;
+	top: 20px;
+	position: relative;
+	color: white;
+	float: right;
+	font-size: 0.9em;
+	animation-name: headeranimate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+/*PROFILE IMAGE*/
+img.prof{
+	margin: 30px 30px 30px 40px;
+	float: left;
+}
+
+/*PORTFOLIO IMAGES*/
+
+.main{
+	min-width: 300px;
+}
+
+.main img{
+	display: inline-block;
+	max-width: 270px;
+	height: auto;
+}
+
+.car{
+	background-image: url(../images/car.jpg);
+	background-size: cover;
+}
+
+.adv{
+	background-image: url(../images/adventure.jpg);
+	background-size: cover;
+}
+
+.pong{
+	background-image: url(../images/pong.jpg);
+	background-size: cover;
+}
+
+.calc{
+	background-image: url(../images/calculator.jpg);
+	background-size: cover;
+}
+
+.hang{
+	background-image: url(../images/hangman.jpg);
+	background-size: cover;
+}
+
+div.rec{
+	max-width: 500px;
+	height: auto;
+	background: teal;
+	position: relative;
+	top: 80px;
+	margin-bottom: -50px;
+	animation-name: headeranimate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+
+h2.pf{
+	font-family: "Montserrat";
+	font-size: 1.2em;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+/*SIDEBAR*/
+
+.sidebar h1{
+	font-family: "Montserrat";
+	color: teal;
+	font-size: 1.5em;
+	padding: 20px;
+	margin: 0 10px 0 10px;
+	border-bottom: 2px solid #dddddd;
+	animation-name: colorchange;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	text-align: center;
+}
+
+.sidebar img{
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+.main input, textarea, button{
+	font-family: "Special Elite";
+}
+
+/*FOOTER*/
+.footer{
+	height: 100px;
+	left: 0; right: 0; bottom: 0;
+	border-top: 10px solid white;
+	background-color: grey;
+	width: 100%;
+	overflow-x: hidden;
+	text-align: center;
+	padding-top: 30px;
+	animation-name: headeranimate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.footer a{
+	color: white;
+	font-family: "Montserrat";
+}
+
+
+@media screen and (max-width: 2000px){
+	
+	/* WRAPPER */
+	#wrapper{
+		position: relative;
+		height: 0px;
+		margin: 0 auto 0 auto;
+		width: 980px;
+	}
+
+	.logo{
+		height:100px;
+		width:30%;
+		float: left;
+		background-color: black;
+	}
+
+	#header{
+		height:100px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		background-color: black;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		animation-name: headeranimate;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}	
+
+	.main{
+		display: flex;
+		flex-direction: column;
+		min-height: 300px;
+		width: 650px;
+		margin: 50px 5px 50px 0px;
+		float: left;
+		background-color: white;
+		border: 4px solid #dddddd;
+		padding-bottom: 40px;
+		display:inline-block;
+		animation-name: borderchange;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+
+	.nav{
+		height:10px;
+		width: 300px;
+		float: right;
+		display: inline-block;
+		padding-top: 45px;
+		padding-bottom: 45px;
+		padding-right: 10px;
+	}
+
+	.sidebar{
+		width: 270px;
+		margin: 50px 0px 5px 5px;
+		float: right;
+		height: 200px;
+		background-color: white;
+		border: 4px solid #dddddd;
+		display: inline-block;
+		animation-name: borderchange;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+
+	.pfi{
+		height: 180px;
+		width: 270px;
+	}
+
+	div.left{
+		float: left;
+		margin-left: 20px;
+		margin-top: 30px;
+	}
+
+	div.right{
+		float: right;
+		margin-right: 20px;
+		margin-top: 30px;
+	}
+
+	.fifty{
+	min-width: 200px;
+	height: 150px;
+	width: 45%;
+	position: relative;
+}
+
+}
+
+
+@media screen and (max-width: 768px){
+	/* WRAPPER */
+	#wrapper{
+		position: relative;
+		height: 0px;
+		width: 95%;
+	}
+
+	.main{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		min-height: 300px;
+		width: 100%;
+		position: relative;
+		float: none;
+		background-color: white;
+		border: 4px solid #dddddd;
+		padding-bottom: 40px;
+		display:inline-block;
+		animation-name: borderchange;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+
+
+	.logo{
+		height:100px;
+		width:300px;
+		float: left;
+		background-color: black;
+		margin-right: -20px;
+	}
+
+	.sbwrapper{
+		width: 300px;
+		margin: 0 auto 0 auto;
+	}
+
+
+	.nav{
+		height:10px;
+		width: 300px;
+		float: right;
+		display: inline-block;
+		padding-top: 45px;
+		padding-bottom: 45px;
+		padding-right: 10px;
+	}
+
+	.sidebar{
+		width: 100%;
+		height: 200px;
+		margin: 0 auto 0 auto;
+		background-color: white;
+		border: 4px solid #dddddd;
+		display: inline-block;
+		animation-name: borderchange;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+
+	.pfi{
+		height: 180px;
+		width: 270px;
+	}
+
+	.fifty{
+	min-width: 200px;
+	height: 150px;
+	width: 45%;
+	position: relative;
+}
+
+}
+
+@media screen and (max-width: 640px){
+
+	/* WRAPPER */
+	#wrapper{
+		position: relative;
+		height: 0px;
+		width: 100%;
+	}
+
+	#header{
+		height:150px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		background-color: black;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		animation-name: headeranimate;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+
+	.main{
+		display: flex;
+		flex-direction: column;
+		min-height: 300px;
+		width: 95%;
+		margin: 50px auto 50px auto;
+		background-color: white;
+		border: 4px solid #dddddd;
+		padding-bottom: 40px;
+		display:inline-block;
+		animation-name: borderchange;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+
+	.logo{
+		height:100px;
+		width:100%;
+		background-color: black;
+		margin-bottom: -30px;
+	}
+
+	.logo h1{
+		text-align: center;
+		width: 100%;
+		font-family: "Montserrat";
+		font-size: 1.9em;
+		color: white;
+		animation-name: colorchange;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+
+	.nav{
+		height:10px;
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+	}
+
+	.sidebar{
+		width: 95%;
+		margin: 0px 2.5% 50px 2.5%;
+		height: 200px;
+		background-color: white;
+		border: 4px solid #dddddd;
+		display: inline-block;
+		animation-name: borderchange;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+
+	.sbwrapper{
+		width: 300px;
+		margin: 0 auto 0 auto;
+	}
+
+	.nav a{
+		font-family: "Montserrat";
+		color: white;
+		text-align: center;
+		float: right;
+		text-decoration: none;
+		width: 33.3%;
+	}
+
+	.nav a:hover{
+		font-weight: bold;
+		font-size: 0.9em;
+		transition: 0.2s all ease-in;
+		width: 33.3%;
+		text-align: center;
+	}
+
+	div.left, div.right{
+		margin: 20px auto 0 auto;
+		float: none;
+		position: relative;
+	}
+
+	.fifty{
+	text-align: center;
+	min-width: 200px;
+	height: 150px;
+	width: 80%;
+	position: relative;
+}
+}
+
+
